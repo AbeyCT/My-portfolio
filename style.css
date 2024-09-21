@@ -426,15 +426,21 @@ h3{
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
+ 
 }
 .project-box>a>img {
   width: 5px;
   height: 5px;
   object-fit: cover;
 }
+.project-box img {
+  width: 100%;
+}
 .project-box label{
   font-size: 15px;
   color: #777;
+  align-content: center;
+  width: 90%;
 }
 .project-box::after, .contact-info::after{
   content: "";
